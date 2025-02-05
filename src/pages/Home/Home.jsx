@@ -1,12 +1,15 @@
-import React from 'react';
+import React from "react";
+import Hero from "../../components/home/Hero";
+import Common from "../../components/common/Common";
 
 const Home = () => {
-    return (
-        <div>
-            <h1>Welcome to Home Page</h1>
-            <p>This is the home page of our application.</p>
-        </div>
-    );
+  return (
+    <>
+      {<Hero />}
+
+      {<Common />}
+    </>
+  );
 };
 
 export default Home;
