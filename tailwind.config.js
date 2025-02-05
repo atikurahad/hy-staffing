@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        poppins: ['Poppins', 'sans-serif'],
-        urbanist: ['Urbanist', 'sans-serif'],
+        sans: ['Poppins', 'sans-serif'],
+        serif: ['Urbanist', 'sans-serif'],
       },
     },
   },
