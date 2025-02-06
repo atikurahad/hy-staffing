@@ -1,7 +1,9 @@
 import React from "react";
 import Hero from "../../components/home/Hero";
 import Common from "../../components/common/Common";
-import Explore from "../../components/explore/Explore";
+import Explore from "../../components/common/Explore";
+import Works from "../../components/common/Works";
+import Slider from "../../components/common/Slider";
 
 const Home = () => {
   return (
@@ -10,6 +12,8 @@ const Home = () => {
 
       {<Common />}
       {<Explore />}
+      {<Works />}
+      {<Slider/>}
     </>
   );
 };

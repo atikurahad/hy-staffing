@@ -11,23 +11,23 @@ import { FaArrowRight } from "react-icons/fa";
 function Explore() {
   const allData = [
     {
-      titlle: "Logistics and Warehousing",
+      title: "Logistics and Warehousing",
       img: { Truck },
     },
     {
-      titlle: "Software Engineer",
+      title: "Software Engineer",
       img: { Laptop },
     },
     {
-      titlle: "Administrative Support",
+      title: "Administrative Support",
       img: { User },
     },
     {
-      titlle: "Skilled Trades",
+      title: "Skilled Trades",
       img: { Business },
     },
     {
-      titlle: "View All",
+      title: "View All",
       img: { Menu },
     },
   ];
@@ -53,20 +53,18 @@ function Explore() {
               key={index}
               className="flex items-center  flex-col   w-[244px]  p-6  rounded-[20px] border border-[#EBECF0] bg-white group   transition-all duration-300 hover:bg-[#E5383B]"
             >
-            
-            <img
+              <img
                 src={item.img[Object.keys(item.img)[0]]}
-                alt={item.titlle}
+                alt={item.title}
                 className="p-6 rounded-full bg-[#F4F5F7] hover:bg-white"
               />
-              <h2 className="text-[24px] text-center font-serif leading-[132%] font-[600] text-[#5A5C5F] tracking-[-0.48px] pt-6 group-hover:text-white">
-                {item.titlle}
+              <h2 className="text-[24px] text-center leading-[31.68px] font-[600] text-[#5A5C5F] tracking-[-0.48px] mt-6 group-hover:text-white">
+                {item.title}
               </h2>
-              <span className="flex items-center gap-1 group-hover:text-white">
-                <p>View Job</p>
+              <div className="flex items-center gap-1 group-hover:text-white">
+                  <p className="text-base leading-[132%] text-[#5A5C5F]">View Job</p>
                 <FaArrowRight />
-              </span>
-        
+              </div>
             </Link>
           ))}
         </div>
