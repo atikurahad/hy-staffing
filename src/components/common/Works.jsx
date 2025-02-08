@@ -15,6 +15,11 @@ import workWhite from "../../assets/images/workWhite.svg"
 function Works() {
   const [hoverImg, setHoverImg] = useState();
 
+  const bgRed = {
+    backgroundColor: '#ffffff',
+
+  }
+
   const workData = [
     {
       id: 1,
@@ -70,7 +75,8 @@ function Works() {
               >
                 <img
                  
-                  src={item.id===hoverImg ? item.hoverImg: item.img}
+                  src={item.id===hoverImg ? bgRed  :  item.hoverImg}
+                  // src={item.hoverImg}
                   alt={item.title}
                   className="w-10 h-10 "
                 />

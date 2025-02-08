@@ -4,7 +4,7 @@ import Common from "../../components/common/Common";
 import Explore from "../../components/common/Explore";
 import Works from "../../components/common/Works";
 import Slider from "../../components/common/Slider";
-// import Apply from "../../components/common/Apply";
+import Apply from "../../components/common/Apply";
 
 const Home = () => {
   return (
@@ -15,7 +15,7 @@ const Home = () => {
       {<Explore />}
       {<Works />}
       {<Slider/>}
-      {/* {<Apply />} */}
+      {<Apply />}
     </>
   );
 };

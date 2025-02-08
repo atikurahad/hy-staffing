@@ -9,6 +9,7 @@ export default {
       fontFamily: {
         sans: ['Poppins', 'sans-serif'],
         serif: ['Urbanist', 'sans-serif'],
+        manrope: ['Manrope', 'sans-serif'],
       },
     },
   },
