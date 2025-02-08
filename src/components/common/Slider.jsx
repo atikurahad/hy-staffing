@@ -69,10 +69,17 @@ function Slider() {
         <Swiper
           modules={[Pagination]}
           spaceBetween={20}
+          
           slidesPerView={1}
           breakpoints={{
             768: { slidesPerView: 2 },
             1024: { slidesPerView: 3 },
+          }}
+          coverflowEffect={{
+            rotate: -50,
+            stretch: 0,
+            depth: 150,
+            modifier: 2.5,
           }}
           centeredSlides={true}
           loop={true}
