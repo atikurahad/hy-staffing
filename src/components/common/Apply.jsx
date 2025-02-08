@@ -1,9 +1,9 @@
-import React from "react";
+
 
 function Apply() {
   return (
     <div className="mx-[296px] mt-[120px] mb-[78px]">
-      <div className="py-[120px] px-[140px] bg-[#FAFBFC] rounded-[40px] flex items-center justify-center flex-col self-stretch gap-[40px]">
+      <div className="py-[120px] px-[140px]  rounded-[40px] flex items-center justify-center flex-col self-stretch gap-[40px]">
         <h1 className="font-serif leading-[132%] font-[600] text-[56px] text-[#5A5C5F] whitespace-nowrap">
           Are You an Employer Looking for Talent?
         </h1>

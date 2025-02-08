@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Home from "../pages/Home/Home"
 import Main from "../layouts/Main";
 import RegistrationPage from "../pages/Registration/RegistrationPage";
+import LoginPage from "../pages/LoginPage.jsx";
 
 const routes = createBrowserRouter([
 
@@ -19,7 +20,7 @@ const routes = createBrowserRouter([
     },
     {
       path:"jobs",
-      element : <RegistrationPage />
+      element : <LoginPage></LoginPage>
     },
     {
       path:"contact",

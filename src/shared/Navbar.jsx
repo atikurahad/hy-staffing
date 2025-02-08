@@ -69,11 +69,11 @@ export default function Navbar() {
           </div>
 
           <div className="flex items-center justify-center   gap-4">
-            <button className="btn  self-stretch text-[#5A5C5F] font-sans px-6 py-4 bg-white border border-gray-600">
+            <button className="  self-stretch text-[#5A5C5F] hover:bg-red-400 font-sans px-6 py-4 bg-white border border-gray-600">
               {" "}
               English
             </button>
-            <button className="btn flex  self-stretch text-white font-sans px-6 py-4 rounded-lg bg-[#E5383B] ">
+            <button className=" flex  self-stretch text-white font-sans px-6 py-4 rounded-lg bg-[#E5383B] ">
               {" "}
               Client Login
             </button>
