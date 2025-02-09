@@ -1,4 +1,4 @@
-import React from "react";
+
 import worker from "../../assets/images/Group 2.png";
 
 const Hero = () => {
@@ -10,7 +10,6 @@ const Hero = () => {
           <img
             src={worker}
             alt="worker"
-            srcset=""
             className="w-full mt-[-40px]"
           />
           <div className="absolute top-[108px] left-[176px]">
@@ -55,7 +54,7 @@ const Hero = () => {
               99%
               </h1>
               <p className="uppercase text-[24px] text-white font-serif font-[400]">
-              Satispaction rate
+              Satisfaction rate
               </p>
             </div>
           </div>
