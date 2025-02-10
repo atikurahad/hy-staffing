@@ -12,7 +12,7 @@ function Apply() {
           Whether you need temporary staff or long-term employees, our extensive
           network of job seekers is ready to meet your needs.
         </p>
-        <button className="text-white text-[20px] px-[64px] py-[24px] bg-[#E5383B] rounded-lg">
+        <button onClick={()=>alert("Are you sure?")} className="text-white text-[20px] px-[64px] py-[24px] bg-[#E5383B] rounded-lg">
           Apply Now
         </button>
       </div>

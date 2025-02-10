@@ -1,4 +1,4 @@
-import React from "react";
+
 
 function Common() {
   return (
@@ -10,9 +10,9 @@ function Common() {
         </h2>
         <div className="sm:w-[930px] w-[356px] mx-auto">
           <p className="text-[#5A5C5F] font-normal sm:text-[16px] text-[10px] mt-[24px] text-center leading-[164%] sm:leading-[26.24px]">
-            We've been a trusted partner for companies and job seekers alike. Our mission is to
+            We&#39;ve been a trusted partner for companies and job seekers alike. Our mission is to
             match great companies with hardworking individuals, ensuring the right fit every time.
-            Whether you're looking for temporary, temp-to-hire, or direct hire positions, we have
+            Whether you&#39;re looking for temporary, temp-to-hire, or direct hire positions, we have
             the resources and expertise to help you succeed.
           </p>
         </div>

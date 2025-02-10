@@ -9,7 +9,7 @@ const LoginPage = () => {
 
     const onSubmit = (data) => console.log(data);
 
-    return (
+               return (
         <div className="flex justify-center items-center min-h-screen bg-gray-100">
             <div className="w-full max-w-md bg-white shadow-lg rounded-2xl p-8">
                 <h2 className="text-2xl font-bold text-center mb-6">Login</h2>

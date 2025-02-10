@@ -10,7 +10,7 @@ const testimonials = [
     name: "Leslie Alexander",
     role: "Logistics Coordinator",
     feedback:
-      "ProLogistix helped me find a job in logistics that I love. The process was quick and easy!",
+      "ProLogistic helped me find a job in logistics that I love. The process was quick and easy!",
   },
   {
     name: "Jane Doe",

@@ -1,4 +1,4 @@
-import React from "react";
+
 
 import Truck from "../../assets/images/truck.svg";
 import Laptop from "../../assets/images/laptop.svg";
@@ -41,7 +41,7 @@ function Explore() {
 
         <p className="text-[#5A5C5F] text-center  leading-[164%] mt-6">
           Unlock Your Potential with Jobs Tailored to Your Skills and
-          Experience. Whether you're looking to grow in logistics,
+          Experience. Whether you&#39;re looking to grow in logistics,
           manufacturing, administrative support, or skilled trades, our
           comprehensive job listings offer a wide range of opportunities to help
           you achieve your career goals.
@@ -56,7 +56,7 @@ function Explore() {
               <img
                 src={item.img[Object.keys(item.img)[0]]}
                 alt={item.title}
-                className="p-6 rounded-full bg-[#F4F5F7] hover:bg-white"
+                className="p-6 rounded-full bg-[#F4F5F7]"
               />
               <h2 className="text-[24px] text-center leading-[31.68px] font-[600] text-[#5A5C5F] tracking-[-0.48px] mt-6 group-hover:text-white">
                 {item.title}

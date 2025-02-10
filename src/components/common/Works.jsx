@@ -65,17 +65,17 @@ function Works() {
           <div onMouseEnter={() => setHoverImg(item.id)}
           onMouseLeave={()=>setHoverImg(null)}
             key={index}
-            className="group flex flex-col items-start gap-4  p-6 rounded-[20px]  bg-[#FAFBFC]  transition-all duration-300 w-[600px] hover:bg-[#F4F5F7]"
+            className="group flex flex-col items-start gap-4   p-6 rounded-[20px]  bg-[#FAFBFC]  transition-all duration-300 w-[600px] hover:bg-[#F4F5F7]"
           >
             <div className="flex items-center gap-[21px]">
               {/* Image */}
               <div
-                className="p-4 flex items-center justify-center rounded-[8px] 
+                className="p-4 flex items-center justify-center rounded-[8px] hover:bg-red-600
                bg-[#EBECF0] transition-all duration-300"
               >
                 <img
                  
-                  src={item.id===hoverImg ? bgRed  :  item.hoverImg}
+                  src={item.id===hoverImg ?  item.img:  item.hoverImg }
                   // src={item.hoverImg}
                   alt={item.title}
                   className="w-10 h-10 "
