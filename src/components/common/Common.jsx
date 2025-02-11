@@ -5,7 +5,7 @@ function Common() {
     <section>
     <div className="container mx-auto pt-[40px]">
       <div className="sm:w-[1320px] w-full sm:h-[176px] mx-auto sm:gap-[24px] my-[60px] sm:my-[120px]">
-        <h2 className="sm:text-[56px] text-[32px] font-serif leading-[42.24px] tracking-[0.32px] sm:leading-[73.92px] text-center font-extrabold text-[#5A5C5F]">
+        <h2 className="sm:text-[56px] text-[32px] font-serif leading-[42.24px] tracking-[0.32px] sm:leading-[73.92px] text-center font-extrabold text-[#5A5C5F] animate-pulse">
           Who We Are
         </h2>
         <div className="sm:w-[930px] w-[356px] mx-auto">
